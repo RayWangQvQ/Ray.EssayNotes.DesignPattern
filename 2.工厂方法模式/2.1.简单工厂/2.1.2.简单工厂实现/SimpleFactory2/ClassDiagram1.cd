@@ -3,7 +3,7 @@
   <Class Name="SimpleFactory2.ShapeBase">
     <Position X="1.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAQgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAwgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Shapes\ShapeBase.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -27,6 +27,9 @@
       <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>AppService.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_simpleFactory" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="SimpleFactory2.SimpleFactory">
     <Position X="5.25" Y="2.25" Width="1.5" />
