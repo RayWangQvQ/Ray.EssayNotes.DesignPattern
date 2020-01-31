@@ -60,6 +60,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "3.抽象
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "4.原型模式\Prototype\Prototype.csproj", "{7F85FFD6-31A3-49D3-A442-9AFE2314128F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.建造者模式", "5.建造者模式", "{4861A83A-1108-4CEA-842A-70558FEB72A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "5.构建器模式\Builder\Builder.csproj", "{BBA52EAF-5747-47A8-88E3-74D82728923A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +114,10 @@ Global
 		{7F85FFD6-31A3-49D3-A442-9AFE2314128F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F85FFD6-31A3-49D3-A442-9AFE2314128F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F85FFD6-31A3-49D3-A442-9AFE2314128F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA52EAF-5747-47A8-88E3-74D82728923A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA52EAF-5747-47A8-88E3-74D82728923A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA52EAF-5747-47A8-88E3-74D82728923A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA52EAF-5747-47A8-88E3-74D82728923A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +146,7 @@ Global
 		{F9C75D0D-B494-4B2D-8893-2797619EEB31} = {EE2B76B7-B7DC-480D-B58C-2534FD3A2037}
 		{AD30BB54-A75A-4554-A3F4-4ED021BE3849} = {6F77D392-2151-4668-A937-4457827EA0F3}
 		{7F85FFD6-31A3-49D3-A442-9AFE2314128F} = {FE1583FA-01B0-457A-880F-0A011DDD8E69}
+		{BBA52EAF-5747-47A8-88E3-74D82728923A} = {4861A83A-1108-4CEA-842A-70558FEB72A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}
