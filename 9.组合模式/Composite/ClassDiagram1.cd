@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Composite.OrganizationComponent">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAQAAEAAA=</HashCode>
+      <FileName>OrganizationComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite.University">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>University.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite.College">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>College.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite.Department">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.装饰模式", "8.装饰�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "8.装饰者模式\Decorator\Decorator.csproj", "{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.组合模式", "9.组合模式", "{D6CC15F9-58CC-46C3-92D9-E78DD3170762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "9.组合模式\Composite\Composite.csproj", "{2F370130-F447-4889-BAC2-D4D5F669D227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +159,10 @@ Global
 		{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F370130-F447-4889-BAC2-D4D5F669D227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F370130-F447-4889-BAC2-D4D5F669D227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F370130-F447-4889-BAC2-D4D5F669D227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F370130-F447-4889-BAC2-D4D5F669D227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +198,7 @@ Global
 		{B7EDE040-58FD-43A8-BD32-56BD9367AA94} = {1507D0DC-9F31-4A9F-9BE7-C0E2372E0EBD}
 		{16B2026F-24E8-43AD-954D-A0639D372F22} = {78FB411F-2A7F-44B6-AADE-736948C52079}
 		{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E} = {DEC3539B-7D94-4D1F-A8F1-6814DF6B41DA}
+		{2F370130-F447-4889-BAC2-D4D5F669D227} = {D6CC15F9-58CC-46C3-92D9-E78DD3170762}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}
