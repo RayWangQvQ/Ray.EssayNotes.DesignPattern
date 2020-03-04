@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.单例模式", "1.单例模式", "{99FF2A98-E6FD-4BFD-9258-2D4E9799FE5A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.单例模式", "01.单例模式", "{99FF2A98-E6FD-4BFD-9258-2D4E9799FE5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.饿汉式", "1.1.饿汉式", "{CA03F33E-B5EA-4CA9-99FC-A3EADDFC8088}"
 EndProject
@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.4.静态内部类", "1.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3.枚举式（Java）", "1.3.枚举式（Java）", "{5B496D9F-263E-4E39-AAF7-849B17ACF0D7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.工厂方法模式", "2.工厂方法模式", "{3E81EBF7-D7D3-410A-85B8-576F63C39DBA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.工厂方法模式", "02.工厂方法模式", "{3E81EBF7-D7D3-410A-85B8-576F63C39DBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1.简单工厂", "2.1.简单工厂", "{A69567E0-1EBB-46E6-A5EC-AAD11411D103}"
 	ProjectSection(SolutionItems) = preProject
@@ -52,19 +52,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2.工厂方法", "2.2.工
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "2.工厂方法模式\2.2.工厂方法\FactoryMethod\FactoryMethod.csproj", "{F9C75D0D-B494-4B2D-8893-2797619EEB31}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.抽象工厂模式", "3.抽象工厂模式", "{6F77D392-2151-4668-A937-4457827EA0F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.抽象工厂模式", "03.抽象工厂模式", "{6F77D392-2151-4668-A937-4457827EA0F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.原型模式", "4.原型模式", "{FE1583FA-01B0-457A-880F-0A011DDD8E69}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.原型模式", "04.原型模式", "{FE1583FA-01B0-457A-880F-0A011DDD8E69}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "3.抽象工厂模式\AbstractFactory\AbstractFactory.csproj", "{AD30BB54-A75A-4554-A3F4-4ED021BE3849}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "4.原型模式\Prototype\Prototype.csproj", "{7F85FFD6-31A3-49D3-A442-9AFE2314128F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.建造者模式", "5.建造者模式", "{4861A83A-1108-4CEA-842A-70558FEB72A5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.建造者模式", "05.建造者模式", "{4861A83A-1108-4CEA-842A-70558FEB72A5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "5.构建器模式\Builder\Builder.csproj", "{BBA52EAF-5747-47A8-88E3-74D82728923A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.适配器模式", "6.适配器模式", "{5B574066-9E65-4EA0-8309-E1F20931D9EE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.适配器模式", "06.适配器模式", "{5B574066-9E65-4EA0-8309-E1F20931D9EE}"
 	ProjectSection(SolutionItems) = preProject
 		6.适配器模式\README.md = 6.适配器模式\README.md
 	EndProjectSection
@@ -77,17 +77,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "6.适配器模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter2", "6.适配器模式\6.2.对象适配器\Adapter2\Adapter2.csproj", "{B7EDE040-58FD-43A8-BD32-56BD9367AA94}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.桥接模式", "7.桥接模式", "{78FB411F-2A7F-44B6-AADE-736948C52079}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.桥接模式", "07.桥接模式", "{78FB411F-2A7F-44B6-AADE-736948C52079}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "7.桥接模式\Bridge\Bridge.csproj", "{16B2026F-24E8-43AD-954D-A0639D372F22}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.装饰模式", "8.装饰模式", "{DEC3539B-7D94-4D1F-A8F1-6814DF6B41DA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.装饰模式", "08.装饰模式", "{DEC3539B-7D94-4D1F-A8F1-6814DF6B41DA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "8.装饰者模式\Decorator\Decorator.csproj", "{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.组合模式", "9.组合模式", "{D6CC15F9-58CC-46C3-92D9-E78DD3170762}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.组合模式", "09.组合模式", "{D6CC15F9-58CC-46C3-92D9-E78DD3170762}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "9.组合模式\Composite\Composite.csproj", "{2F370130-F447-4889-BAC2-D4D5F669D227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.外观模式", "10.外观模式", "{C164C3EA-0BE4-4D5D-A8CC-48F02C1B53C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "10.外观模式\Facade\Facade.csproj", "{1B037190-2550-4B72-B61C-6F2A08164C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +167,10 @@ Global
 		{2F370130-F447-4889-BAC2-D4D5F669D227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F370130-F447-4889-BAC2-D4D5F669D227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F370130-F447-4889-BAC2-D4D5F669D227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B037190-2550-4B72-B61C-6F2A08164C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B037190-2550-4B72-B61C-6F2A08164C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B037190-2550-4B72-B61C-6F2A08164C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B037190-2550-4B72-B61C-6F2A08164C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +207,7 @@ Global
 		{16B2026F-24E8-43AD-954D-A0639D372F22} = {78FB411F-2A7F-44B6-AADE-736948C52079}
 		{AACEB5E7-5FAA-4217-9DE8-9E9E6124676E} = {DEC3539B-7D94-4D1F-A8F1-6814DF6B41DA}
 		{2F370130-F447-4889-BAC2-D4D5F669D227} = {D6CC15F9-58CC-46C3-92D9-E78DD3170762}
+		{1B037190-2550-4B72-B61C-6F2A08164C6E} = {C164C3EA-0BE4-4D5D-A8CC-48F02C1B53C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}

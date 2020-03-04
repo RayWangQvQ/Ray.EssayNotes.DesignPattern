@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Facade.DVDPlayer">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAIA=</HashCode>
+      <FileName>DVDPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.Popcorn">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>PopCorn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.HomeTheaterFacade">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAAAEAAAAAAAAIAQAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>HomeTheaterFacade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_popcorn" />
+      <Field Name="_dvdPlayer" />
+      <Field Name="_light" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facade.Light">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Light.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
