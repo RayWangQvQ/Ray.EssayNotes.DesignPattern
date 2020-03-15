@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProxy", "12.代理�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticProxy", "12.代理模式\StaticProxy\StaticProxy.csproj", "{D7F878E2-0BAB-4D6D-BC87-96849BAE66A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.模板方法模式", "13.模板方法模式", "{23AB1B29-1B1F-4786-AD75-35206B005DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "13.模板方法模式\TemplateMethod\TemplateMethod.csproj", "{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +197,10 @@ Global
 		{D7F878E2-0BAB-4D6D-BC87-96849BAE66A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F878E2-0BAB-4D6D-BC87-96849BAE66A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F878E2-0BAB-4D6D-BC87-96849BAE66A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -233,6 +241,7 @@ Global
 		{268218A6-A7EF-44B9-8541-F48B60CA2B26} = {FB6951AE-F6E2-4778-9248-6D3BCA2F5C09}
 		{586648EA-C987-4663-B924-0A9D2857A6C0} = {D4892C4F-8B0B-4933-86EB-670CD48D3CCC}
 		{D7F878E2-0BAB-4D6D-BC87-96849BAE66A8} = {D4892C4F-8B0B-4933-86EB-670CD48D3CCC}
+		{BDFF9591-B9AD-49EF-AED8-1E7AFF0704F5} = {23AB1B29-1B1F-4786-AD75-35206B005DF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}

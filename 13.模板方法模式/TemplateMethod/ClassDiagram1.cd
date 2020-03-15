@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TemplateMethod.SoyaMilk">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>SoyaMilk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.RedBeanSoyaMilk">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RedBeanSoyaMilk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.PennutSoyaMilk">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PennutSoyaMilk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
