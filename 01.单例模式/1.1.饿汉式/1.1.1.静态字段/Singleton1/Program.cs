@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 
 namespace Singleton1
 {
@@ -14,7 +15,7 @@ namespace Singleton1
             Singleton instance = Singleton.GetInstance();
             Singleton instance2 = Singleton.GetInstance();
 
-            Console.WriteLine(instance == instance2); 
+            Console.WriteLine(instance == instance2);
             Console.WriteLine($"instance.hashCode={instance.GetHashCode()}");
             Console.WriteLine($"instance2.hashCode={instance2.GetHashCode()}");
         }
