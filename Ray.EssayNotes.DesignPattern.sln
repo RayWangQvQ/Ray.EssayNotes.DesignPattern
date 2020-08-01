@@ -107,6 +107,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "08.装饰者�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "09.组合模式\Composite\Composite.csproj", "{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.命令模式", "14.命令模式", "{3EA4824B-F9BD-406A-963A-760418C3E772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "14.命令模式\Command\Command.csproj", "{018A0D38-C615-497B-BB23-872C4640A02E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,10 @@ Global
 		{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018A0D38-C615-497B-BB23-872C4640A02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018A0D38-C615-497B-BB23-872C4640A02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018A0D38-C615-497B-BB23-872C4640A02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018A0D38-C615-497B-BB23-872C4640A02E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +250,7 @@ Global
 		{F7F141E6-249F-4A88-9EE1-15DB1E628816} = {78FB411F-2A7F-44B6-AADE-736948C52079}
 		{1D3C12F5-A86A-4088-A7C9-382C049AFB2D} = {DEC3539B-7D94-4D1F-A8F1-6814DF6B41DA}
 		{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5} = {D6CC15F9-58CC-46C3-92D9-E78DD3170762}
+		{018A0D38-C615-497B-BB23-872C4640A02E} = {3EA4824B-F9BD-406A-963A-760418C3E772}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}
