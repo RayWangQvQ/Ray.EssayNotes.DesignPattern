@@ -109,7 +109,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "09.组合模�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.命令模式", "14.命令模式", "{3EA4824B-F9BD-406A-963A-760418C3E772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "14.命令模式\Command\Command.csproj", "{018A0D38-C615-497B-BB23-872C4640A02E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "14.命令模式\Command\CommandPattern.csproj", "{018A0D38-C615-497B-BB23-872C4640A02E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
