@@ -115,6 +115,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.访问者模式", "15.�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "15.访问者模式\VisitorPattern\VisitorPattern.csproj", "{2E90A08B-2D17-4855-B0E7-9B26972341D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16.迭代器模式", "16.迭代器模式", "{73208591-FE3A-4E2A-8D94-C79028BBE6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "16.迭代器模式\IteratorPattern\IteratorPattern.csproj", "{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +221,10 @@ Global
 		{2E90A08B-2D17-4855-B0E7-9B26972341D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E90A08B-2D17-4855-B0E7-9B26972341D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E90A08B-2D17-4855-B0E7-9B26972341D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +268,7 @@ Global
 		{D7C031AE-EB6B-403E-8A3B-9E28A77A41A5} = {D6CC15F9-58CC-46C3-92D9-E78DD3170762}
 		{018A0D38-C615-497B-BB23-872C4640A02E} = {3EA4824B-F9BD-406A-963A-760418C3E772}
 		{2E90A08B-2D17-4855-B0E7-9B26972341D6} = {FA3F5BF6-E3FD-4B96-AB2B-F16F1A6EFBC3}
+		{8D8FB0EC-A195-4A84-9C77-566D4A9C70FC} = {73208591-FE3A-4E2A-8D94-C79028BBE6DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB99CEE-65FA-4A26-8014-0D446B9D7D7E}
